@@ -7,13 +7,17 @@ const Billing = () => (
       <img src={bill} alt="bill" className="w-[100%] h-[100%] relative z-[5]"/>
       <div className="absolute z-[3] w-[50%] -left-1/2 h-[50%] top-0 white__gradient"/>
       <div className="absolute z-[3] w-[50%] -left-1/2 h-[50%] top-0 pink__gradient"/>
-
     </div>
     <div className={layout.sectionInfo}>
       <h2 className={styles.heading2}>Lorem ipsum dolor sit <br className="sm:block hidden"/>amet consectetur.</h2>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni, quo. Doloremque consequatur dolores aut non qui placeat vitae dignissimos consequuntur! Facere obcaecati saepe architecto quos vel eligendi voluptatem consequatur autem!
       </p>
+      <div className="flex flex-row flex-wrap sm:mt-10 mt-6">
+        <img src={apple} alt="apple" className="w-[128px] h-[42px] object-contain mr-5 cursor-pointer" />
+        <img src={google} alt="google" className="w-[128px] h-[42px] object-contain cursor-pointer" />
+      </div>
+
     </div>
   </section>
 )
